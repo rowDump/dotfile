@@ -16,6 +16,6 @@
     diffc = diff --cached
     ff = merge --ff-only
 [credential]
-    helper = cache --timeout 86400
+    helper =  store
 [merge]
     tool = vimdiff
